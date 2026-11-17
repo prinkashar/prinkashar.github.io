@@ -213,6 +213,62 @@
     buttons.forEach((button) => button.addEventListener('click', load));
   });
 
+  /* ---- Contact form -------------------------------------------------------
+     With a Formspree form ID in data-formspree, messages are posted to Formspree and shown as sent on the page.
+     Without one, the form opens the visitor's email app with the message filled in. */
+
+  $$('form.contact-form').forEach((form) => {
+    const status = $('.contact-form__status', form);
+    const button = $('button[type="submit"]', form);
+    const say = (text, isError) => {
+      status.textContent = text;
+      status.classList.toggle('is-error', Boolean(isError));
+    };
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const fields = Array.from(form.querySelectorAll('input[required], textarea[required]'));
+      let firstBad = null;
+      fields.forEach((field) => {
+        const bad = !field.value.trim() || (field.type === 'email' && !field.checkValidity());
+        field.setAttribute('aria-invalid', String(bad));
+        if (bad && !firstBad) firstBad = field;
+      });
+      if (firstBad) {
+        say('Please fill in every field, with a valid email address.', true);
+        firstBad.focus();
+        return;
+      }
+      if (form.elements._gotcha && form.elements._gotcha.value) return;
+
+      const data = new FormData(form);
+      const id = (form.dataset.formspree || '').trim();
+      if (!id) {
+        const body = `${data.get('message')}\n\n— ${data.get('name')} (${data.get('email')})`;
+        window.location.href = `mailto:${form.dataset.mailto}?subject=${encodeURIComponent(data.get('subject'))}&body=${encodeURIComponent(body)}`;
+        say('Your email app should open with the message ready to send.');
+        return;
+      }
+
+      button.disabled = true;
+      say('Sending…');
+      try {
+        const response = await fetch(`https://formspree.io/f/${encodeURIComponent(id)}`, {
+          method: 'POST',
+          body: data,
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error(String(response.status));
+        form.reset();
+        say('Thank you. Your message has been sent.');
+      } catch (error) {
+        say(`The message could not be sent. Please email ${form.dataset.mailto} instead.`, true);
+      } finally {
+        button.disabled = false;
+      }
+    });
+  });
+
   /* ---- Small helpers ------------------------------------------------------ */
 
   // "Copy" buttons: <button data-copy="text to copy">
