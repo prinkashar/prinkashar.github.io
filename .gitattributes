@@ -1,0 +1,9 @@
+# Keep text files with the same line endings on every computer.
+* text=auto eol=lf
+
+# Never alter these.
+*.woff2 binary
+*.webp binary
+*.jpg binary
+*.png binary
+*.ico binary

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prinkashar.github.io/sitemap.xml

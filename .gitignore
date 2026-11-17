@@ -1,0 +1,9 @@
+# Original uploads. The site uses the optimised copies in assets/img/, so these are not published.
+/Images/
+
+# Operating system and file-sync clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+.dropbox
+.dropbox.attr

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Priyanka Sharma</title>
+  <meta name="description" content="Project spotlights by Priyanka Sharma: CultivateIQ price forecasting, farm resilience, health economics, crop insurance technology, open telecom infrastructure, and social connectedness.">
+  <meta name="author" content="Priyanka Sharma">
+  <meta name="color-scheme" content="only light">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Priyanka Sharma">
+  <meta property="og:title" content="Projects | Priyanka Sharma">
+  <meta property="og:description" content="A closer look at six projects, from agribusiness price forecasting to health economics.">
+  <meta property="og:url" content="https://prinkashar.github.io/projects.html">
+  <meta property="og:image" content="https://prinkashar.github.io/assets/img/social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Priyanka Sharma, Ph.D. economist and MBA. Economics for food, farms, and the networks that connect them.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://prinkashar.github.io/projects.html">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/newsreader-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Runs before the page paints: notes that JavaScript is on (used by the mobile menu and fade-in effects). */
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      /* Safety net: if main.js never loads, drop back to the no-JavaScript layout so nothing stays hidden. */
+      setTimeout(function () { if (!d.classList.contains('js-ready')) d.classList.remove('js'); }, 3000);
+    })();
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Site header: identical on every page (only aria-current="page" moves) ===== -->
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">PS</span>
+        <span class="brand__text">
+          <span class="brand__name">Priyanka Sharma</span>
+          <span class="brand__role">Ph.D. Economist, MBA</span>
+        </span>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Page title ===== -->
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="wrap">
+        <p class="eyebrow">Selected work</p>
+        <h1 id="page-title">Project spotlights</h1>
+        <p class="lead">A closer look at six projects in regional food systems, resource economics, and health economics.</p>
+        <nav class="actions" aria-label="On this page">
+          <ul class="chips">
+            <li><a class="chip" href="#cultivateiq">CultivateIQ</a></li>
+            <li><a class="chip" href="#diversification">Production diversification</a></li>
+            <li><a class="chip" href="#health-economics">Health economics</a></li>
+            <li><a class="chip" href="#insurtech">InsurTech</a></li>
+            <li><a class="chip" href="#openran">Open telecom infrastructure</a></li>
+            <li><a class="chip" href="#social-connectedness">Social connectedness</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ===== Project spotlights =====
+         Each figure is a link to the full-size image; clicking opens the image viewer.
+         Links that share the same data-lightbox name are grouped together.
+         To add a project, copy one <article class="project"> … </article> block. -->
+    <section class="section section--tint" aria-label="Projects">
+      <div class="wrap">
+        <!-- CultivateIQ -->
+        <article class="project reveal" id="cultivateiq">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Regional food systems</p>
+              <h2>CultivateIQ: agribusiness price forecasting with AI pipelines</h2>
+              <p>CultivateIQ is an agribusiness price forecasting and decision support platform for small and midsize farmers and food distributors. It is being developed at the University of Arkansas I³R under the NSF Convergence Accelerator program and is entering its commercialization phase with a minimum viable product.</p>
+              <p>As product developer and technology transfer lead, I work on the transition from academic research prototype to commercially viable product, integrating demand forecasting, supplier behavior modeling, and regional market analytics, with price forecasting built on AI pipelines.</p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Role</dt>
+                <dd>Product developer and technology transfer lead, 2025 – present</dd>
+              </div>
+              <div>
+                <dt>Program</dt>
+                <dd>NSF Convergence Accelerator, University of Arkansas I³R</dd>
+              </div>
+              <div>
+                <dt>Intellectual property</dt>
+                <dd>IP disclosure filed in 2025: agribusiness price forecasting tool for small and midsize farmers (CultivateIQ core algorithm), University of Arkansas</dd>
+              </div>
+              <div>
+                <dt>Website</dt>
+                <dd><a href="https://cultivateiq.org/" target="_blank" rel="noopener">cultivateiq.org</a></dd>
+              </div>
+            </dl>
+          </div>
+          <div class="gallery gallery--wide">
+            <figure class="shot">
+              <a href="assets/img/research/cultivateiq-forecast.webp" data-lightbox="cultivateiq" data-caption="The CultivateIQ forecast view: demand, supply, and price for a crop by state, with historical data and a forecast window.">
+                <img src="assets/img/research/cultivateiq-forecast.webp" width="1348" height="578" loading="lazy" decoding="async" alt="CultivateIQ dashboard for tomatoes in Arkansas, California, Florida and the U.S. average, with monthly bars for demand and supply, a line for price, and a shaded forecast period, beside the heading “A better way to forecast”.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Forecast view: demand, supply, and price by state, with a forecast window.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/cultivateiq-website.webp" data-lightbox="cultivateiq" data-caption="The CultivateIQ website: “Cultivate Success with Data-Driven Forecasts, from Farm to Table.”">
+                <img src="assets/img/research/cultivateiq-website.webp" width="1304" height="906" loading="lazy" decoding="async" alt="CultivateIQ website home page with the headline “Cultivate Success with Data-Driven Forecasts, from Farm to Table” and photographs of farm produce.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>The CultivateIQ website.</figcaption>
+            </figure>
+          </div>
+          <p class="note gallery__source">Screenshots from the CultivateIQ website.</p>
+        </article>
+
+        <!-- Production diversification -->
+        <article class="project reveal" id="diversification">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Resource economics</p>
+              <h2>Production diversification and farm resilience: evidence from Kansas</h2>
+              <p>This project studies the effects of production diversification on farm resilience and net farm income, using evidence from Kansas farms. It is part of my doctoral research on diversification in rural economic resilience at Kansas State University.</p>
+              <div class="project__art" aria-hidden="true">
+                <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <g transform="translate(40 26)">
+                    <rect width="92" height="64" rx="8" fill="#a3412a" fill-opacity=".85"/>
+                    <rect x="100" width="60" height="64" rx="8" fill="#161b22" fill-opacity=".14"/>
+                    <rect x="168" width="72" height="30" rx="8" fill="#a3412a" fill-opacity=".35"/>
+                    <rect x="168" y="38" width="72" height="26" rx="8" fill="#161b22" fill-opacity=".78"/>
+                    <rect y="72" width="54" height="76" rx="8" fill="#161b22" fill-opacity=".78"/>
+                    <rect x="62" y="72" width="98" height="34" rx="8" fill="#a3412a" fill-opacity=".2"/>
+                    <rect x="62" y="114" width="46" height="34" rx="8" fill="#a3412a" fill-opacity=".55"/>
+                    <rect x="116" y="114" width="44" height="34" rx="8" fill="#161b22" fill-opacity=".14"/>
+                    <rect x="168" y="72" width="72" height="76" rx="8" fill="#a3412a" fill-opacity=".85"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Working paper</dt>
+                <dd>“Effects of Production Diversification on Farm Resilience: Evidence from Kansas,” with J. Tack and A. Shanoyan.</dd>
+              </div>
+              <div>
+                <dt>Presented</dt>
+                <dd>AAEA Annual Meeting, New Orleans, Louisiana, July 2024, and Kansas Risk and Profit Conference, Manhattan, Kansas, August 2024.</dd>
+              </div>
+              <div>
+                <dt>Dissertation</dt>
+                <dd>“Incentive Structure in Telecom Supply Chain, Production Diversification, and Rural Resilience,” Kansas State University, 2025. <a href="https://www.proquest.com/docview/3245399807" target="_blank" rel="noopener">Full text on ProQuest</a></dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <!-- Health economics -->
+        <article class="project reveal" id="health-economics">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Health economics</p>
+              <h2>Health economics: Lyme disease, GLP-1, and antibiotic resistance</h2>
+              <p>Three health economics collaborations: tick-borne disease economics (Lyme disease), GLP-1, and antibiotic resistance (AMR). The Lyme disease and GLP-1 papers are under review.</p>
+              <p>My writing archives on health economics papers and collaborations on GLP-1 and Lyme disease are available on request, as they are under review.</p>
+              <p>
+                <a class="btn btn--primary btn--sm" href="mailto:ps110@uark.edu?subject=Request%3A%20health%20economics%20writing%20archive">Request by email
+                  <svg class="nudge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+              </p>
+              <div class="project__art" aria-hidden="true">
+                <svg viewBox="0 0 320 200" preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <circle cx="55" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="85" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="115" cy="55" r="9" fill="#a3412a" fill-opacity=".85"/>
+                  <circle cx="145" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="175" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="205" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="235" cy="55" r="9" fill="#a3412a" fill-opacity=".35"/>
+                  <circle cx="265" cy="55" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="55" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="85" cy="85" r="9" fill="#a3412a" fill-opacity=".85"/>
+                  <circle cx="115" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="145" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="175" cy="85" r="9" fill="#161b22" fill-opacity=".78"/>
+                  <circle cx="205" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="235" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="265" cy="85" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="55" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="85" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="115" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="145" cy="115" r="9" fill="#a3412a" fill-opacity=".35"/>
+                  <circle cx="175" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="205" cy="115" r="9" fill="#a3412a" fill-opacity=".85"/>
+                  <circle cx="235" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="265" cy="115" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="55" cy="145" r="9" fill="#161b22" fill-opacity=".78"/>
+                  <circle cx="85" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="115" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="145" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="175" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="205" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                  <circle cx="235" cy="145" r="9" fill="#a3412a" fill-opacity=".85"/>
+                  <circle cx="265" cy="145" r="9" fill="#161b22" fill-opacity=".14"/>
+                </svg>
+              </div>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Tick-borne disease economics: Lyme disease</dt>
+                <dd>With MU Bond (University of Missouri) and Cornell University. Paper under review.</dd>
+              </div>
+              <div>
+                <dt>GLP-1</dt>
+                <dd>With MU Bond (University of Missouri). Paper under review.</dd>
+              </div>
+              <div>
+                <dt>Antibiotic resistance (AMR)</dt>
+                <dd>With Indiana University Bloomington.</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <!-- InsurTech -->
+        <article class="project reveal" id="insurtech">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Resource economics</p>
+              <h2>InsurTech applications for smallholder crop insurance</h2>
+              <p>A systematic, thematic literature review of how InsurTech can facilitate crop insurance for smallholder farmers in developing countries. The review identifies nine InsurTech themes, including big data analytics, the Internet of Things, and blockchain, and maps technologies such as satellite data, drones, and machine learning to the stages of the insurance supply chain: underwriting and pricing, distribution, customer service, and claims management.</p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Method</dt>
+                <dd>Thematic literature review of 94 articles drawn from IEEE Xplore, MDPI, Scopus, and Springer</dd>
+              </div>
+              <div>
+                <dt>Presented</dt>
+                <dd>“Insurtech applications to facilitate crop insurance for smallholder farmers in developing countries,” with A. Shanoyan. IFAMA 2023 Academic Symposium.</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="gallery">
+            <figure class="shot">
+              <a href="assets/img/research/insurtech-key-themes.webp" data-lightbox="insurtech" data-caption="Key InsurTech themes for developing countries, and the technology layers behind crop insurance offered via InsurTech.">
+                <img src="assets/img/research/insurtech-key-themes.webp" width="1280" height="952" loading="lazy" decoding="async" alt="Slide listing nine key InsurTech themes for developing countries beside a diagram of the technology layers behind crop insurance offered via InsurTech.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Key InsurTech themes for developing countries.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/insurtech-review-by-technology.webp" data-lightbox="insurtech" data-caption="Systematic literature review by technology category and insurance supply chain stage.">
+                <img src="assets/img/research/insurtech-review-by-technology.webp" width="1280" height="986" loading="lazy" decoding="async" alt="Chart of reviewed studies by technology category and insurance supply chain stage.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Literature review by technology.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/insurtech-review-by-year.webp" data-lightbox="insurtech" data-caption="Systematic literature review by publication year and insurance supply chain stage.">
+                <img src="assets/img/research/insurtech-review-by-year.webp" width="1280" height="1008" loading="lazy" decoding="async" alt="Chart of reviewed studies by publication year, technology used, and insurance supply chain stage.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Literature review by publication year.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/insurtech-methodology.webp" data-lightbox="insurtech" data-caption="Three-stage review method: search strategy, screening strategy, and thematic strategy.">
+                <img src="assets/img/research/insurtech-methodology.webp" width="1280" height="996" loading="lazy" decoding="async" alt="Flow chart of the three-stage review method: search strategy, screening strategy, and thematic strategy.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Three-stage review method.</figcaption>
+            </figure>
+          </div>
+          <p class="note gallery__source">Slides from a research presentation in Manhattan, Kansas, February 2024.</p>
+        </article>
+
+        <!-- OpenRAN -->
+        <article class="project reveal" id="openran">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Resource economics</p>
+              <h2>Open and decentralized telecom infrastructure for rural connectivity</h2>
+              <p>An economic evaluation of investments in open, multi-supplier radio access networks (OpenRAN, or ORAN) compared with traditional monolithic, single-supplier networks (MRAN), with a focus on low-cost rural connectivity. A decision tree compares net present value (NPV) across deployment strategy, geotype from urban to rural, average revenue per user (ARPU), and capital expenditure (capex).</p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Method</dt>
+                <dd>Decision-tree analysis of net present value (NPV)</dd>
+              </div>
+              <div>
+                <dt>Paper</dt>
+                <dd>“ORAN Drives Higher Returns on Investment in Urban and Suburban Regions,” with E.J. Oughton and A. Shanoyan. Under review. <a href="https://arxiv.org/abs/2412.18346" target="_blank" rel="noopener">arXiv:2412.18346</a></dd>
+              </div>
+              <div>
+                <dt>Invited talk</dt>
+                <dd>“Incentive Structure in Open Telecom Infrastructure for Rural Regions,” Michigan State University, December 2024.</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="gallery gallery--wide">
+            <figure class="shot">
+              <a href="assets/img/research/openran-architecture.webp" data-lightbox="openran" data-caption="Traditional monolithic RAN from a single supplier compared with multi-supplier OpenRAN.">
+                <img src="assets/img/research/openran-architecture.webp" width="934" height="462" loading="lazy" decoding="async" alt="Diagram comparing a traditional monolithic radio access network from a single supplier with a multi-supplier OpenRAN architecture.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Traditional single-supplier RAN compared with multi-supplier OpenRAN.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/openran-decision-tree.webp" data-lightbox="openran" data-caption="Decision tree: strategy (MRAN or ORAN), geotype, ARPU, and capex, ending in net present value.">
+                <img src="assets/img/research/openran-decision-tree.webp" width="937" height="591" loading="lazy" decoding="async" alt="Decision tree with branches for strategy (MRAN or ORAN), geotype, average revenue per user, and capital expenditure, ending in net present value.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Decision tree: strategy, geotype, ARPU, and capex.</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <!-- Social connectedness -->
+        <article class="project reveal" id="social-connectedness">
+          <div class="project__intro">
+            <div>
+              <p class="eyebrow">Regional food systems</p>
+              <h2>Social connectedness and new-media marketing in the green industry</h2>
+              <p>This project studies the role of social connectedness in the green industry: nurseries and horticulture small businesses. It combines an unscaled version of Meta’s Social Connectedness Index, which gives actual connections within a county, with survey data covering 118 locations across the United States.</p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Data</dt>
+                <dd>Meta Social Connectedness Index (SCI) and green-industry survey data</dd>
+              </div>
+              <div>
+                <dt>Presented</dt>
+                <dd>“The use of the social and economic connectedness indices in evaluating the performance of new-media marketing in the green industry,” with A. Shanoyan and B. Yao. IFAMA 2023 Academic Symposium.</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="gallery">
+            <figure class="shot">
+              <a href="assets/img/research/social-connectedness-sci-index.webp" data-lightbox="social-connectedness" data-caption="Original and modified Social Connectedness Index, with two example county maps.">
+                <img src="assets/img/research/social-connectedness-sci-index.webp" width="1280" height="983" loading="lazy" decoding="async" alt="Slide comparing the original Social Connectedness Index with a modified index of actual within-county connections, with two example county maps.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Original and modified Social Connectedness Index.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/social-connectedness-survey-data.webp" data-lightbox="social-connectedness" data-caption="Survey data locations (118) across the United States, with a closer view of Kansas.">
+                <img src="assets/img/research/social-connectedness-survey-data.webp" width="1280" height="973" loading="lazy" decoding="async" alt="Slide with a map of 118 survey data locations across the United States and a map of Kansas locations.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Survey data locations, with a closer view of Kansas.</figcaption>
+            </figure>
+            <figure class="shot">
+              <a href="assets/img/research/social-connectedness-county-maps.webp" data-lightbox="social-connectedness" data-caption="Social Connectedness Index maps for selected counties.">
+                <img src="assets/img/research/social-connectedness-county-maps.webp" width="1280" height="977" loading="lazy" decoding="async" alt="Slide with twelve maps of the United States showing the Social Connectedness Index for selected counties.">
+                <span class="shot__zoom" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></span>
+              </a>
+              <figcaption>Social Connectedness Index maps for selected counties.</figcaption>
+            </figure>
+          </div>
+          <p class="note gallery__source">Slides from a research presentation in Manhattan, Kansas, February 2024.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Onward links ===== -->
+    <section class="section section--tight" aria-label="More">
+      <div class="wrap actions actions--links">
+        <a class="link-arrow" href="research.html">Research areas and current work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a class="link-arrow" href="research.html#publications">Publications
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Site footer: identical on every page ===== -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__grid">
+      <div>
+        <p class="site-footer__name">Priyanka Sharma</p>
+        <p class="site-footer__tag">Agricultural economist (Ph.D., MBA) working on regional food systems, resource economics, and health economics.</p>
+      </div>
+      <nav aria-label="Footer">
+        <p class="site-footer__label">Site</p>
+        <ul class="site-footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="industry.html">Industry</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="site-footer__label">Elsewhere</p>
+        <ul class="site-footer__links">
+          <li><a href="mailto:ps110@uark.edu">ps110@uark.edu</a></li>
+          <li><a href="https://www.linkedin.com/in/priyankashar/" target="_blank" rel="noopener me">LinkedIn</a></li>
+          <li><a href="https://twitter.com/agricultureecon" target="_blank" rel="noopener me">X (Twitter)</a></li>
+          <li><a href="https://github.com/prinkashar" target="_blank" rel="noopener me">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap site-footer__base">
+      <p>© <span data-year>2026</span> Priyanka Sharma</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
