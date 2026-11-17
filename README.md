@@ -29,7 +29,7 @@ python -m http.server 8000 --bind 127.0.0.1
 | `contact.html` | Email and profile links |
 | `404.html` | Shown by GitHub Pages when a page is not found |
 | `assets/css/style.css` | All styling. Colours, fonts and spacing are defined at the top, under "Design tokens" (`404.html` and the icons carry their own copies of the colours) |
-| `assets/js/main.js` | Mobile menu, image viewer, document previews, fade-in effects |
+| `assets/js/main.js` | Mobile menu, image viewer, fade-in effects |
 | `assets/img/` | The photos, figures and certificates the site shows (the small icons are in the main folder). `social-card.jpg` is the picture shown when the site is shared on LinkedIn or X |
 | `assets/fonts/` | The two typefaces (Newsreader and Inter), with their licences |
 | `Images/` | Your original uploads. The site does not use this folder (it uses optimised copies in `assets/img/`), and it is not published |

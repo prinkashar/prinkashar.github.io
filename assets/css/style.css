@@ -1140,6 +1140,19 @@ a.card--media:hover .link-arrow svg {
   padding-top: 0.6rem;
 }
 
+.award__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin-top: auto;
+  padding-top: 0.6rem;
+}
+
+.award__links .link-arrow {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .venues {
   display: flex;
   flex-wrap: wrap;
@@ -1204,6 +1217,30 @@ a.card--media:hover .link-arrow svg {
   width: 100%;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
+}
+
+/* quotation, used for student feedback on the Teaching page */
+.quote {
+  margin: 1.5rem 0 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--accent);
+}
+
+.split__body .quote p {
+  font-family: var(--font-serif);
+  font-size: var(--step-2);
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.split__body .quote p + p {
+  margin-top: 0.75rem;
+}
+
+.quote footer {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--ink-3);
 }
 
 figcaption {
@@ -2113,6 +2150,23 @@ figcaption {
   border-radius: var(--radius);
   background: var(--frame);
   box-shadow: var(--shadow-md);
+}
+
+/* a front page that opens in the image viewer */
+.embed > a {
+  display: block;
+  height: 100%;
+}
+
+.embed > a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: -6px;
+}
+
+.embed > a:hover .shot__zoom,
+.embed > a:focus-visible .shot__zoom {
+  opacity: 1;
+  transform: none;
 }
 
 .embed img,
