@@ -959,19 +959,6 @@ a.card--media:hover .card__media img {
   transform: scale(1.035);
 }
 
-.card__media--art {
-  display: grid;
-  place-items: center;
-  background: var(--feature);
-  color: var(--accent);
-}
-
-.card__media--art svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
 /* photographs are framed on their subject rather than on their top edge */
 .card__media--photo img {
   object-position: 50% 55%;
@@ -1437,22 +1424,6 @@ figcaption {
 .project__intro p:not(.eyebrow) {
   margin-top: 1rem;
   color: var(--ink-2);
-}
-
-.project__art {
-  max-width: 24rem;
-  margin-top: 1.5rem;
-  aspect-ratio: 16 / 10;
-  overflow: hidden;
-  border: 1px solid var(--feature-line);
-  border-radius: var(--radius);
-  background: var(--feature);
-}
-
-.project__art svg {
-  display: block;
-  width: 100%;
-  height: 100%;
 }
 
 .project__photo {

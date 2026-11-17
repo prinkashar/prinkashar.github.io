@@ -28,7 +28,7 @@ python -m http.server 8000 --bind 127.0.0.1
 | `cv.html` | Full CV (has a "Print or save as PDF" button) |
 | `contact.html` | Email and profile links |
 | `404.html` | Shown by GitHub Pages when a page is not found |
-| `assets/css/style.css` | All styling. Colours, fonts and spacing are defined at the top, under "Design tokens" (the drawn illustration in `index.html` and `projects.html`, `404.html` and the icons carry their own copies of the colours) |
+| `assets/css/style.css` | All styling. Colours, fonts and spacing are defined at the top, under "Design tokens" (`404.html` and the icons carry their own copies of the colours) |
 | `assets/js/main.js` | Mobile menu, image viewer, document previews, fade-in effects |
 | `assets/img/` | The photos, figures and certificates the site shows (the small icons are in the main folder). `social-card.jpg` is the picture shown when the site is shared on LinkedIn or X |
 | `assets/fonts/` | The two typefaces (Newsreader and Inter), with their licences |
