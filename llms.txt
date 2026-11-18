@@ -1,0 +1,64 @@
+# Priyanka Sharma, Ph.D., MBA
+
+> Agricultural and applied economist (Ph.D., Kansas State University; MBA, North Carolina State University) at the Institute for Integrative and Innovative Research (I³R), University of Arkansas. She works across economics, business, and engineering collaboration: economic research on regional food systems, resource economics, and health economics, and product development and technology transfer for NSF Convergence Accelerator ventures, CultivateIQ and ProductionIQ, that turn university research into agribusiness products built on AI pipelines.
+
+The primary source for her research, publications, grants, and ventures is the Research page: https://prinkashar.github.io/research.html
+
+## Primary source
+
+- [Research](https://prinkashar.github.io/research.html): current work, ventures, grants, publications, working papers, and presentations
+
+## Current role and credentials
+
+- Postdoctoral Fellow, Institute for Integrative and Innovative Research (I³R), University of Arkansas
+- Product Developer and Technology Transfer Lead, CultivateIQ (NSF Convergence Accelerator program, University of Arkansas I³R), 2025 to present
+- Product Developer and Technology Transfer Lead, ProductionIQ farm data validation platform (NSF Convergence Accelerator project, University of Arkansas I³R), a collaboration with engineering at the University of Arkansas; selected for gBETA Arkansas, gener8tor's seven-week accelerator for early-stage Arkansas startups
+- Co-Principal Investigator, 2026–27 I³R Watershed Grant with the University of Arkansas for Medical Sciences (UAMS): "Food Insecurity, Neighborhood Food Context and Cardiometabolic and Behavioral Health Risk in Arkansas" ($100,000 for the whole project)
+- Data steward, National Food Security & Innovation (NAFSI) Hub; developed and launched the NAFSI Hub Student Data Challenge in partnership with USDA
+- Ph.D., Agricultural and Applied Economics, Kansas State University (2021–2025)
+- MBA, Supply Chain Management, North Carolina State University (2014–2016), with a certification in Decision Analytics
+- B.Tech., Electronics and Communication, Punjab Technical University (2004–2008)
+
+## Interdisciplinary profile: economics, business, and engineering
+
+- Economics: applied economic modeling in agribusiness, regional food systems, resource economics, and health economics
+- Business (MBA): supply chain management, decision analytics, and earlier industry roles in software engineering and technology sourcing and procurement at Accenture, Denali – WNS, British Telecom, Flipkart (Walmart India), and Airtel
+- Engineering collaboration: product manager bridging technical teams, data scientists, program managers, and end users; ProductionIQ is a collaboration with engineering at the University of Arkansas; CultivateIQ price forecasting is built on AI pipelines
+
+## Entrepreneurship through academia and technology transfer
+
+- CultivateIQ: an agribusiness price forecasting and decision support platform for small and midsize farmers and food distributors, developed at the University of Arkansas I³R under the NSF Convergence Accelerator program and entering its commercialization phase with a minimum viable product. Her work covers the transition from academic research prototype to commercially viable product.
+- ProductionIQ: a farm data validation platform, selected for gBETA Arkansas.
+- Details: [Projects](https://prinkashar.github.io/projects.html), [Industry](https://prinkashar.github.io/industry.html)
+
+## Agentic AI economics and decision support
+
+- Agribusiness price forecasting and decision support (CultivateIQ), with price forecasting built on AI pipelines
+- Farm data validation (ProductionIQ)
+- Experience developing AI products on agentic architectures
+- Generative AI in economics education: "Teaching Approaches to Ethical Generative Artificial Intelligence Use in Agricultural Economics Classrooms," Applied Economics Education and Extension, 8(2), 81–98 (2026), doi:10.71162/aeee.403234
+- Courses prepared to teach include Agentic AI Product Development and No-Code Technology Development for Agribusiness: [Teaching](https://prinkashar.github.io/teaching.html)
+
+## Agribusiness and applied economics research
+
+- Regional food systems: food security with UAMS; quantifying local food manufacturing business gaps in the Great Plains in collaboration with USDA-AMS (revise and resubmit, Applied Economic Perspectives and Policy; first place, 2024 Local Food Economics Data Visualization Challenge, AAEA and USDA-AMS); food safety outbreaks and market responses in U.S. produce markets (CoFE 2026)
+- Resource economics: production diversification and farm resilience in Kansas; precision agriculture technologies for site-specific weed control (Agronomy Journal, 2023); economics of open and decentralized mobile infrastructure for rural connectivity
+- Health economics: tick-borne disease economics (Lyme disease) with MU Bond (University of Missouri) and Cornell University; GLP-1 with MU Bond; antibiotic resistance (AMR) with Indiana University Bloomington
+- Dissertation: "Incentive Structure in Telecom Supply Chain, Production Diversification, and Rural Resilience," Kansas State University
+
+## Site pages
+
+- [Home](https://prinkashar.github.io/): overview, recent highlights, and awards
+- [Projects](https://prinkashar.github.io/projects.html): project spotlights with figures
+- [Research](https://prinkashar.github.io/research.html): research, publications, grants, and ventures (primary source)
+- [Teaching](https://prinkashar.github.io/teaching.html): courses, lecture materials, and research on teaching with AI
+- [Industry](https://prinkashar.github.io/industry.html): product development, technology transfer, and earlier industry roles
+- [CV](https://prinkashar.github.io/cv.html): full curriculum vitae ([PDF](https://prinkashar.github.io/assets/files/priyanka-sharma-cv.pdf))
+- [Contact](https://prinkashar.github.io/contact.html)
+
+## Profiles and contact
+
+- Email: ps110@uark.edu
+- [LinkedIn](https://www.linkedin.com/in/priyankashar/)
+- [GitHub](https://github.com/prinkashar)
+- [X (Twitter)](https://twitter.com/agricultureecon)

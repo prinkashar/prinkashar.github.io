@@ -1,3 +1,35 @@
+# Search engines and AI assistants are welcome to read every page.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 User-agent: *
 Allow: /
 
