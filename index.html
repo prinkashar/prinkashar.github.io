@@ -126,7 +126,7 @@
   }
   </script>
 </head>
-<body id="top">
+<body id="top" class="home">
   <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- ===== Site header: identical on every page (only aria-current="page" moves) ===== -->
@@ -194,18 +194,40 @@
         </figure>
       </div>
 
-      <div class="wrap hero__focus">
-        <p class="eyebrow eyebrow--muted eyebrow--plain">Focus areas</p>
-        <ul class="chips">
-          <li class="chip">Regional food systems</li>
-          <li class="chip">Resource economics</li>
-          <li class="chip">Health economics</li>
-          <li class="chip">AI product development</li>
-          <li class="chip">Agribusiness entrepreneurship</li>
-          <li class="chip">Agentic AI</li>
-          <li class="chip">Data-driven decision-making</li>
-          <li class="chip">Incentive system development</li>
+      <div class="wrap">
+        <ul class="focus-row" aria-label="Focus areas">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Regional food systems</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>Resource economics</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"/></svg>Health economics</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/></svg>AI product development</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>Agribusiness entrepreneurship</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>Agentic AI</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>Data-driven decision-making</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>Incentive system development</li>
         </ul>
+      </div>
+    </section>
+
+    <!-- ===== Featured project ===== -->
+    <section class="section section--flush-top featured-band" aria-labelledby="featured-title">
+      <div class="wrap featured">
+        <div class="featured__copy reveal">
+          <p class="eyebrow">Featured project</p>
+          <h2 id="featured-title">CultivateIQ</h2>
+          <p class="featured__lead">An agribusiness price forecasting and decision support platform for small and midsize farmers and food distributors. It is being developed at the University of Arkansas I³R under the NSF Convergence Accelerator program, with price forecasting built on AI pipelines.</p>
+          <p>As product developer and technology transfer lead, I work on the transition from academic research prototype to commercially viable product.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="projects.html#cultivateiq">View project
+              <svg class="nudge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a class="link-arrow link-arrow--out" href="https://cultivateiq.org/" target="_blank" rel="noopener">cultivateiq.org
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <figure class="featured__media reveal" style="--d: 120ms">
+          <img src="assets/img/research/cultivateiq-forecast.webp" width="1348" height="578" alt="CultivateIQ forecast view: monthly demand and supply bars and a price line for a crop by state, with a shaded forecast period." loading="lazy" decoding="async">
+        </figure>
       </div>
     </section>
 
@@ -252,7 +274,7 @@
 
     <!-- ===== Research themes ===== -->
     <section class="section section--tint" aria-labelledby="themes-title">
-      <div class="wrap">
+      <div class="wrap themes-layout">
         <header class="section__head reveal">
           <div>
             <p class="eyebrow">Research</p>
@@ -305,22 +327,8 @@
           </a>
         </header>
 
-        <div class="grid-3">
-          <a class="card card--media reveal" href="projects.html#cultivateiq">
-            <div class="card__media">
-              <img src="assets/img/research/cultivateiq-forecast-chart.webp" width="694" height="434" alt="" loading="lazy" decoding="async">
-            </div>
-            <div class="card__body">
-              <p class="tag tag--quiet">Regional food systems</p>
-              <h3 class="card__title">CultivateIQ: price forecasting with AI pipelines</h3>
-              <p>An agribusiness price forecasting and decision support platform for small and midsize farmers and food distributors, where I am product developer and technology transfer lead.</p>
-              <span class="link-arrow link-arrow--sm">View project
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-              </span>
-            </div>
-          </a>
-
-          <a class="card card--media reveal" style="--d: 90ms" href="projects.html#local-food-manufacturing">
+        <div class="grid-3 spotlights">
+          <a class="card card--media reveal" href="projects.html#local-food-manufacturing">
             <div class="card__media">
               <img src="assets/img/research/local-food-manufacturing-gap-dashboard.webp" width="1440" height="900" alt="" loading="lazy" decoding="async">
             </div>
@@ -334,7 +342,7 @@
             </div>
           </a>
 
-          <a class="card card--media reveal" style="--d: 180ms" href="projects.html#diversification">
+          <a class="card card--media reveal" style="--d: 90ms" href="projects.html#diversification">
             <div class="card__media">
               <img src="assets/img/research/diversification-farm-size-chart.webp" width="795" height="497" alt="" loading="lazy" decoding="async">
             </div>
