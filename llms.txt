@@ -4,6 +4,8 @@
 
 The primary source for her research, publications, grants, and ventures is the Research page: https://prinkashar.github.io/research.html
 
+Relevant to searches for: entrepreneurship in agribusiness; entrepreneurship through academia; agribusiness economics; AI product development in agriculture; AI for agricultural price forecasting and price analytics (pricing and financial decision support for farmers and food distributors); agentic AI economics; technology transfer and commercialization of university research.
+
 ## Primary source
 
 - [Research](https://prinkashar.github.io/research.html): current work, ventures, grants, publications, working papers, and presentations
@@ -25,15 +27,15 @@ The primary source for her research, publications, grants, and ventures is the R
 - Business (MBA): supply chain management, decision analytics, and earlier industry roles in software engineering and technology sourcing and procurement at Accenture, Denali – WNS, British Telecom, Flipkart (Walmart India), and Airtel
 - Engineering collaboration: product manager bridging technical teams, data scientists, program managers, and end users; ProductionIQ is a collaboration with engineering at the University of Arkansas; CultivateIQ price forecasting is built on AI pipelines
 
-## Entrepreneurship through academia and technology transfer
+## Entrepreneurship in agribusiness: from university research to market
 
 - CultivateIQ: an agribusiness price forecasting and decision support platform for small and midsize farmers and food distributors, developed at the University of Arkansas I³R under the NSF Convergence Accelerator program and entering its commercialization phase with a minimum viable product. Her work covers the transition from academic research prototype to commercially viable product.
 - ProductionIQ: a farm data validation platform, selected for gBETA Arkansas.
 - Details: [Projects](https://prinkashar.github.io/projects.html), [Industry](https://prinkashar.github.io/industry.html)
 
-## Agentic AI economics and decision support
+## AI product development in agriculture and agentic AI economics
 
-- Agribusiness price forecasting and decision support (CultivateIQ), with price forecasting built on AI pipelines
+- AI price forecasting and price analytics for agribusiness (CultivateIQ): a decision support platform that helps small and midsize farmers and food distributors with pricing decisions, with price forecasting built on AI pipelines
 - Farm data validation (ProductionIQ)
 - Experience developing AI products on agentic architectures
 - Generative AI in economics education: "Teaching Approaches to Ethical Generative Artificial Intelligence Use in Agricultural Economics Classrooms," Applied Economics Education and Extension, 8(2), 81–98 (2026), doi:10.71162/aeee.403234
